@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Health</title>
+    <link rel="stylesheet" href="health2.css">
+</head>
+<body>
+    <div class="precontainer">
+        <div class="child">
+            <br>
+            <h3><u>INNOVATION <span id="one">H</span><span id="two">U</span><span id="three">B</span></u></h3>
+            <p>
+                Sharing your idea here will boost innovative ideas in health sectors
+            </p>
+            <table class="table2">
+                <tr>
+                    <td><img src="downloaded/boy-g14a11b192_1280.png" alt="" class="img2"></td>
+                    <td>Disease Prevation</td>
+                </tr>
+                <tr>
+                    <td><img src="downloaded/man-1459246_1280.png" alt="" class="img2"></td>
+                    <td>Disease Treatment</td>
+                </tr>
+                <tr>
+                    <td><img src="downloaded/medical-g19dca0966_1280.png" alt="" class="img2"></td>
+                    <td>Disease control</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="dvi1">
+            <h4><u>INNOVATION <span id="one">H</span><span id="two">U</span><span id="three">B</span></u></h4>
+            <h5>SEND US YOUR FILES</h5>
+
+        </div>
+        <form action="inserting_data.php" method="POST" enctype="multipart/form-data">
+            <div class="container2">
+                <div class="div2">
+                    <div id="firstname">
+                        <label for="firstname">Firstname</label><br>
+                        <input type="text" name="firstname" placeholder="Enter Firstname" class="inp"><br><br>
+                        <label for="username">Username</label>
+                        <input class="inp" type="text" name="username" placeholder="Enter Username"><br><br>
+                        <label for="tittle">File Tittle</label>
+                        <input class="inp" type="text" name="tittle" placeholder="Enter File Tittle"><br><br>
+                        <label>Choose File: &nbsp; </label>
+                        <input class="inp2" type="file" name="File"><i class="warn"> <u>please upload only pdf files</u></i>
+                        <p></p>
+                        <input class="inp2" type="submit" name="Submit" value="Upload"><br>
+                        <!-- <button><a href="table.php">View Uploaded Files</a></button> -->
+
+                    </div>
+                    <div id="lastname">
+                        <label for="lastname">Lastname</label><br>
+                        <input class="inp" type="text" name="lastname" placeholder="Enter Lastname"><br><br><br>
+                        <label for="category">Category</label>
+                        <select name="category">
+                            <option value="health" name="health">Health</option>
+                            <option value="climate" name="climate">Climate</option>
+                            <option value="agriculture" name="agriculture">Agriculture</option>
+                            <option value="technology" name="technology">Technology</option>
+                        </select><br><br>
+                        <label for="date">Date</label><br>
+                        <input type="text" name="date" placeholder="yyyy-mm-dd">
+                                                                        
+                    </div>
+                </div>                
+            </div>
+        </form>
+    </div>
+    <div class="footdiv">
+        <footer>
+            <div class="footer">
+                <p>
+                    <br> &copy; 2021-2022 <br><br>
+                    <b><u>FOLLOW US</u></b>
+                </p>
+                <div class="media">
+                   <table>
+                       <tr>
+                           <td><img src="icons/facebook_108044 - Copy.png" alt="" class="icons"></td>
+                           <td>innovation-hub</td>
+                       </tr>
+                       <tr>
+                            <td><img src="icons/whatsapp_108042 - Copy.png" alt="" class="icons"></td>
+                            <td>+265880218905</td>
+                        </tr>
+                        <tr>
+                           <td><img src="icons/instagram_108043 - Copy.png" alt="" class="icons"></td>
+                           <td>innovation-hub</td>
+                       </tr>
+                       <tr>
+                            <td><img src="icons/iconfinder-connectedglobe-4417105_116615 - Copy.png" alt="" class="icons"></td>
+                            <td>www.innovationhub.com</td>
+                        </tr>
+                   </table>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

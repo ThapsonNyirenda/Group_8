@@ -1,0 +1,39 @@
+.container{
+    margin: auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    padding: 10px;
+    height: 80vh;
+ 
+}
+
+form{
+    background-color: rgb(47, 231, 255,0.2);
+    padding: 10px;
+}
+.table1{
+    margin: auto;
+    border-collapse: collapse; 
+    margin-top: 15px;
+    padding: 20px;  
+}
+
+table,tr, th, td{
+    padding: 10px;
+    border: 1px solid black;
+}
+.fdiv1{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+p i{
+    color: red;
+}
+legend{
+    display: block;
+    margin-left: 50px;
+}
+fieldset{
+    border: 1px solid red;
+}

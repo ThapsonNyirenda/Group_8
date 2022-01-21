@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="health.css">
+
+</head>
+<body>
+    <div class="container">
+        <div>
+
+            <form method="POST" action="health.php" enctype="multipart/form-data" >
+                <fieldset>
+                    <legend>Uploading Section</legend>
+                        <label>Tittle</label>
+                        <input type="text" name="name"><br><br>
+                        <input type="file" name="image"> <br>
+
+                        <label for="category">Select category:</label>
+                        <select name="category" id="">
+                            <option value="health" >HEALTH</option>
+                            <option value="agriculture">AGRICULTURE</option>
+                            <option value="climate">CLIMATE</option>
+                        </select> <br><br>
+                        <label for="username" >Username:</label>
+                        <input type="text" name="username" placeholder="Enter Username">
+                        <br>
+                        <input type="submit" value="upload" name="Submit">
+                </fieldset>
+            </form>
+        </div>
+       <div>
+       </div>
+        
+    </div>
+</body>
+</html>
