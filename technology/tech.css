@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('images/pexels-markus-spiske-6190327.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-bottom: -16px;
+    padding: 20PX;
+}
+
+.dvi1{
+    margin: auto;
+    background-color: white;
+    height: 15vh;
+    width: 40%;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+.dvi1 h4,h5{
+    color: rgb(80, 68, 57);
+}
+#one,#three{
+    color: red;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(40, 26, 240, 0.8);
+    margin-bottom: 100px;
+    color: white;
+}
+#firstname{
+    
+    width: 50%;
+    padding: 10px;
+}
+#lastname{
+    padding: 10px;
+    width: 50%;
+}
+.inp{
+    
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: rgb(9, 9, 250,0.01);
+}
+.inp:hover{
+    color: white;
+    transition: 0.2s;
+    font-size: 15px;
+    border-bottom: 2px solid red;
+}
+input{
+    width: 85%;
+}
+.inp2:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.inp2{
+    border-radius: 10px;
+}
+.warn{
+    color: rgb(240, 9, 78);
+    font-weight: bold;
+}
+
+.footer{
+    height: 35vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0%;
+}
+.icons{
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+}
+table{
+    margin: auto;
+    text-align: left;
+}
+button{
+    width: 85%;
+    text-align: center;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover{
+    color: white;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: red;
+    transition: 1s;
+}
+.precontainer{
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/25619473-0.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.child{
+    margin-left: 100px;
+    height: 60vh;
+    width: 30%;
+    background-color: rgba(21, 24, 24, 0.5);
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: 2s;
+    font-family: cursive;
+}
+.child h3,p{
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-weight: bolder;
+}
+.img2{
+    height: 50px;
+    width: auto;
+    /* border-radius: 100px; */
+}
+.table2{
+    color: white;
+}
+
+
+
+
