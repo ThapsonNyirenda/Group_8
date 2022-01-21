@@ -1,0 +1,60 @@
+.first{
+    width: 100;
+    height: 50vh;
+    margin: 200px;
+    background-image: url('images/pexels-jess-bailey-designs-1097930.jpg');
+    background-size: cover;
+    
+}
+.span2{
+    animation-name: change2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+.span1{
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes change2{
+    from{color:rgb(255, 0, 98);};
+    to{color: rgb(0, 102, 128); }
+}
+
+@keyframes change{
+    from{color:rgb(0, 204, 255);};
+    to{color: blue; }
+}
+.h1{
+    text-align: center;
+    
+}
+
+.p1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    width: 20%;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    padding: 15px;
+    transition: 3ms;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.buttons{
+    text-align: center;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
